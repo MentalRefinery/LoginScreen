@@ -96,6 +96,11 @@ namespace CustomWindow.ViewModel
         /// The height of the Title Bar / Caption of the window
         /// </summary>
         public GridLength TitleHeightGridLength { get { return new GridLength(TitleHeight + ResizeBorder); } }
+
+        /// <summary>
+        /// The current page of the application
+        /// </summary>
+        public ApplicationPage currentPage { get; set; } = ApplicationPage.Login;
         #endregion
         #region Commands
 

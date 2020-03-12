@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Windows.Data;
 using System.Windows.Markup;
 
-namespace Fasetto.Word
+namespace CustomWindow
 {
     /// <summary>
     /// A base value converter that allows direct XAML usage
